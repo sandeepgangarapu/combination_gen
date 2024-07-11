@@ -1,0 +1,50 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 0; /* Remove default margins */
+}
+
+h1, label, input[type="text"], textarea, button {
+  display: block; /* Ensure elements stack vertically */
+  width: 100%;    /* Make elements take full width */
+  margin-bottom: 15px; /* Consistent spacing between elements */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+input[type="text"], textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+.output-container {
+  margin-top: 40px; 
+}

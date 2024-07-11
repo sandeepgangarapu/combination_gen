@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Combination Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/js-yaml@4"></script> 
+</head>
+<body>
+    <div class="container">
+        <h1>Combination Generator</h1>
+
+        <label for="input">Enter items (comma-separated):</label>
+        <input type="text" id="input">
+
+        <button onclick="generateCombinations()">Generate Combinations</button>
+
+        <div class="output-container">
+            <label for="output">YAML Output:</label>
+            <textarea id="output" rows="10" cols="50"></textarea>
+            <button onclick="copyOutput()">Copy Output</button> 
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/js-yaml@4"></script> 
+
+</body>
+</html>
